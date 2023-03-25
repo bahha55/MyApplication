@@ -1,0 +1,17 @@
+package com.example.myapplication
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.animation.AnimationUtils
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+
+        val largeAnimation = AnimationUtils.loadAnimation(this,R.anim.large)
+
+
+    }
+}
